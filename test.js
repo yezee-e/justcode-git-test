@@ -1,7 +1,8 @@
-const even = () => {
-  for (let i = 1; i <= 50; i += 2) {
-    return i;
+even = () => {
+  let a = [];
+  for (let i = 2; i < 50; i += 2) {
+    a.push(i);
   }
+  return a;
 };
-
-even();
+console.log(even());
